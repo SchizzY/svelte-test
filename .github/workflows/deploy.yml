@@ -39,6 +39,6 @@ jobs:
         with:
           project: "cahilhenry-svelte-test-35"
           entrypoint: "index.js"
-          root: "dist"
+          root: "build"
           
           
