@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "cahilhenry-svelte-test-53"
-          entrypoint: "mod.ts"
-          root: "build"
+          project: "cahilhenry-svelte-test-35"
+          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
+          root: "dist"
           
           
